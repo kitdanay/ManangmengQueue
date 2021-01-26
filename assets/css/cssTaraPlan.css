@@ -1,0 +1,231 @@
+
+
+.example {
+  -webkit-columns: 4 150px;
+  -moz-columns: 4 150px;
+  columns: 4 150px;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
+}
+
+h1 {
+  -webkit-column-span: all;
+  -moz-column-span: all;
+  column-span: all;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+.lead {
+  font-variant: small-caps;
+  font-size: 1.3em;
+  text-align: left;
+  font-style: italic;
+}
+.canvas {
+    background-size: auto;
+    position: relative;
+    margin: 1em auto;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.Taraplan {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, auto);
+  grid-gap: 5px;
+}
+
+.Taraplan > div{
+  background: #c4eede;
+  opacity: 0.8;
+  font-weight: 500;
+  font-family: 'Athiti', sans-serif;
+  display: flex;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  border-radius: 5px;
+
+}
+  
+.A {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+.B {
+    grid-row: span 2;
+    grid-column: span 5;
+  }
+
+.C {
+    grid-row: span 3;
+    grid-column: span 1;
+  }
+
+.D {
+    grid-row: span 1;
+    grid-column: span 7;
+  }
+  
+.E {
+    grid-row: span 2;
+    grid-column: span 4;
+  }
+
+.F {
+    grid-row: span 2;
+    grid-column: span 4;
+  }
+
+.G {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+  
+.H {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+.I {
+    grid-row: span 2;
+    grid-column: span 4;
+  }
+
+.Taraplan > div:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+.Taraplan > div:active {
+    background-color: #FFF68F;
+    
+}
+table.InHome {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    border: 2px solid #DCDCDC; 
+    margin: 0 auto;
+}
+
+table.InHome tr td {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    border: 0px solid #DCDCDC;   
+    vertical-align: top;
+}
+
+table.InRaft {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #DCDCDC; 
+    margin: 0 auto;
+}
+
+table.InRaft tr td {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    border: 0px solid #DCDCDC;   
+    vertical-align: top;
+}
+
+table.WaterFront {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #DCDCDC; 
+    margin: 0 auto;
+}
+
+table.WaterFront tr td {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    border: 0px solid #DCDCDC;   
+    vertical-align: top;
+}
+
+table.WellZone {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 40%;
+    border: 2px solid #DCDCDC; 
+    margin: 0 auto;
+    float: left;
+}
+
+table.WellZone tr td {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    border: 0px solid #DCDCDC;   
+    vertical-align: top;
+}
+
+table.WellZone2 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #DCDCDC; 
+    margin: 0 auto;
+}
+
+table.WellZone2 tr td {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    border: 0px solid #DCDCDC;   
+    vertical-align: top;
+}
+
+table.TamarindTree {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    border: 2px solid #DCDCDC; 
+    margin: 0 auto;
+    float: right;
+}
+
+table.TamarindTree tr td {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border: 0px solid #DCDCDC;   
+    vertical-align: top;
+}
+
+table.TamarindTree2 {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #DCDCDC; 
+    margin: 0 auto;
+    float: right;
+}
+
+table.TamarindTree2 tr td {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border: 0px solid #DCDCDC;   
+    vertical-align: top;
+}

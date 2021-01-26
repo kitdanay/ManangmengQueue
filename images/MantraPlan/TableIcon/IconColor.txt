@@ -1,0 +1,10 @@
+Green #70d90a, #39b54a
+Red #fe7b42, #ef3a3a
+Orange #e2610c, #faa333
+Blue #3d4778, #00bff3
+Yellow #b3aa01, #faed45
+Magenta #ac02ac, #ee00ee
+
+UPDATE `tablemantraplan` SET `TableIcon` = 'SquareAvailable.png',`TableIconMR` = 'SquareCheck.png',`TableIconReserved` = 'SquareReserved.png',`TableIconFood` = 'SquareFood.png',`TableStatus` = '1' WHERE `ResName` = 'KeereeTara'
+
+UPDATE `tablemantraplan` SET `TableIconBlue` = 'SquareBlueFood.png',`TableIconMagenta` = 'SquareMagentaFood.png',`TableIconYellow` = 'SquareYellowFood.png' WHERE `TableIcon` = 'SquareAvailable.png'
